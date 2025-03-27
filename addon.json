@@ -13,6 +13,8 @@
 		"*.exe",
 		"*.hlsl",
 		"*.inc",
-		"*.gitignore"
+		"*.gitignore",
+		"*.txt",
+		"*.md"
 	]
 }
