@@ -1,0 +1,6 @@
+ShaderCompiler.exe
+
+shaders/shaders/
+shaders/include/
+
+*.vcs

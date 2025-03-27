@@ -1,0 +1,18 @@
+{
+	"title": "Milk Shader",
+	"type": "effects",
+	"tags": 
+	[
+		"roleplay",
+		"fun"
+	],
+	"ignore": 
+	[
+		"*.jpg",
+		"+.jpeg",
+		"*.exe",
+		"*.hlsl",
+		"*.inc",
+		"*.gitignore"
+	]
+}
