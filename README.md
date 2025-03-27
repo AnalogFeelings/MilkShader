@@ -1,4 +1,13 @@
 # :milk_glass: Milk Shader
+
+[![GitHub issues](https://img.shields.io/github/issues/analogfeelings/milkshader?label=Issues&style=flat-square&logo=github)](https://github.com/AnalogFeelings/MilkShader/issues)
+[![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/analogfeelings/milkshader?style=flat-square&label=Pull%20Requests&logo=github)](https://github.com/AnalogFeelings/MilkShader/pulls)
+[![GitHub Repo stars](https://img.shields.io/github/stars/analogfeelings/milkshader?label=Stargazers&style=flat-square&logo=github)](https://github.com/AnalogFeelings/MilkShader/stargazers)
+[![Steam Downloads](https://img.shields.io/steam/downloads/3452733745?style=flat-square&logo=steam&label=Steam%20Downloads)](https://steamcommunity.com/sharedfiles/filedetails/?id=3452733745)
+[![GitHub](https://img.shields.io/github/license/analogfeelings/milkshader?label=License&style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/AnalogFeelings/MilkShader/blob/master/LICENSE.txt)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/w/analogfeelings/milkshader?label=Commit%20Activity&style=flat-square&logo=github)](https://github.com/AnalogFeelings/MilkShader/graphs/commit-activity)
+[![Mastodon Follow](https://img.shields.io/mastodon/follow/109309123442839534?domain=https%3A%2F%2Ftech.lgbt%2F&style=flat-square&logo=mastodon&logoColor=white&label=Follow%20Me!&color=6364ff)](https://tech.lgbt/@analog_feelings)
+
 This is a custom post processing shader for Garry's Mod, that requires the March 2025 update.
 
 Visuals inspired by **Milk inside a bag of milk inside a bag of milk**. Shader code based on https://github.com/LucaSinUnaS/Milk-Filter.
