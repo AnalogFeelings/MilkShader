@@ -15,6 +15,7 @@
 		"*.inc",
 		"*.gitignore",
 		"*.txt",
-		"*.md"
+		"*.md",
+		"*.json"
 	]
 }

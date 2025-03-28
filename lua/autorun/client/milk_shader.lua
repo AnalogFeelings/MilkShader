@@ -19,6 +19,34 @@
 -- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 -- SOFTWARE.
 
+local MilkEnabled = "analogfeelings_milk_enabled"
+
 hook.Add("Initialize", "analogfeelings_milk_shader", function()
-	RunConsoleCommand("r_screenoverlay", "effects/shaders/milk")
+	local enabledConvar = CreateClientConVar(MilkEnabled, "0", true, false)
+
+	ToggleEnabled(enabledConvar:GetBool())
 end)
+
+hook.Add("AddToolMenuCategories", "analogfeelings_milk_category", function()
+	spawnmenu.AddToolCategory("Options", "Milk Shader", "#Milk Shader")
+end)
+
+hook.Add("PopulateToolMenu", "analogfeelings_milk_options", function()
+	spawnmenu.AddToolMenuOption("Options", "Milk Shader", "Shader Options", "#Shader Options", "", "", function(panel)
+		panel:ClearControls()
+
+		local enabledCheckbox = panel:CheckBox("Enable Shader", MilkEnabled)
+
+		function enabledCheckbox:OnChange(value)
+			ToggleEnabled(value)
+		end
+	end)
+end)
+
+function ToggleEnabled(enabled)
+	if enabled then
+		RunConsoleCommand("r_screenoverlay", "effects/shaders/milk")
+	else
+		RunConsoleCommand("r_screenoverlay", "off")
+	end
+end
